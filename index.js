@@ -1,4 +1,3 @@
-
 let calculator_input_Number_V = document.getElementById('calculator_input_Number');
 let calculator_input_Number_Previews_V = document.getElementById('calculator_input_Number_Previews');
 
@@ -26,4 +25,6 @@ function displaySolve(){
     let y= eval(eq);
 
     calculator_input_Number_V.value=y;
+
+
 }
